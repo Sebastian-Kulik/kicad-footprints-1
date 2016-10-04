@@ -1,0 +1,12 @@
+(module MyKicadFootprints:INDUCTOR-3MM (layer F.Cu) (tedit 526401A4)
+  (fp_text reference INDUCTOR-3MM (at 0 -2.6) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 3) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.15)))
+  )
+  (fp_circle (center -3.8 0) (end -3.9 0) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 0 0) (end -3.5 0) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at -1.5 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 1.5 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS))
+)
